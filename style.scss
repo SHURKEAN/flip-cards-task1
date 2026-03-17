@@ -356,20 +356,6 @@ header {
   }
 }
 
-// ── Footer ─────────────────────────────
-footer {
-  margin-top: 72px;
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  color: $mid-gray;
-  text-align: center;
-
-  a {
-    color: $mid-gray;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
-}
 
 // ── Responsive ─────────────────────────
 @media (max-width: 1024px) {
