@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple iPhone — Compare Models</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <div class="logo"><span>i</span>Phone</div>
+      <p class="tagline">Three generations. One standard.</p>
+    </header>
+
+    <main>
+      <div class="cards-wrapper">
+
+        <!-- Card 1 — iPhone 12 (LEFT) -->
+        <div class="card" onclick="this.classList.toggle('flipped')">
+          <div class="card__inner">
+
+            <div class="card__front">
+              <div class="card__label">2020</div>
+              <div class="card__image-wrap">
+                <img src="iphone12.jpg" alt="iPhone 12" class="phone-img" />
+              </div>
+              <div class="card__content">
+                <h2>iPhone 12</h2>
+                <p class="card__sub">6.1" · A14 Bionic · 5G</p>
+              </div>
+              <div class="card__hint">tap to see specs →</div>
+            </div>
+
+            <div class="card__back">
+              <div class="card__label">2020</div>
+              <h2>iPhone 12</h2>
+              <ul class="specs">
+                <li><span>Display</span><strong>6.1" OLED Super Retina XDR</strong></li>
+                <li><span>Chip</span><strong>Apple A14 Bionic</strong></li>
+                <li><span>Camera</span><strong>12MP Dual Wide + Ultra Wide</strong></li>
+                <li><span>Battery</span><strong>Up to 17h video</strong></li>
+                <li><span>Storage</span><strong>64 / 128 / 256GB</strong></li>
+                <li><span>5G</span><strong>Yes</strong></li>
+              </ul>
+              <div class="card__price">From <strong>$699</strong></div>
+              <button class="card__cta">Buy iPhone 12</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Card 2 — iPhone 14 Pro (CENTER — FEATURED) -->
+        <div class="card card--featured" onclick="this.classList.toggle('flipped')">
+          <div class="card__inner">
+
+            <div class="card__front">
+              <div class="card__badge">Latest Pro</div>
+              <div class="card__label">2022</div>
+              <div class="card__image-wrap">
+                <img src="iphone14pro.jpg" alt="iPhone 14 Pro" class="phone-img phone-img--featured" />
+              </div>
+              <div class="card__content">
+                <h2>iPhone 14 Pro</h2>
+                <p class="card__sub">6.1" · A16 Bionic · Dynamic Island</p>
+              </div>
+              <div class="card__hint">tap to see specs →</div>
+            </div>
+
+            <div class="card__back card__back--dark">
+              <div class="card__label card__label--muted">2022</div>
+              <h2>iPhone 14 Pro</h2>
+              <ul class="specs specs--light">
+                <li><span>Display</span><strong>6.1" ProMotion Always-On</strong></li>
+                <li><span>Chip</span><strong>Apple A16 Bionic</strong></li>
+                <li><span>Camera</span><strong>48MP Main + Ultra Wide + Tele</strong></li>
+                <li><span>Battery</span><strong>Up to 23h video</strong></li>
+                <li><span>Storage</span><strong>128 / 256 / 512GB / 1TB</strong></li>
+                <li><span>Feature</span><strong>Dynamic Island · Always-On</strong></li>
+              </ul>
+              <div class="card__price card__price--light">From <strong>$999</strong></div>
+              <button class="card__cta card__cta--light">Buy iPhone 14 Pro</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Card 3 — iPhone 13 (RIGHT) -->
+        <div class="card" onclick="this.classList.toggle('flipped')">
+          <div class="card__inner">
+
+            <div class="card__front">
+              <div class="card__label">2021</div>
+              <div class="card__image-wrap">
+                <img src="iphone13.jpg" alt="iPhone 13" class="phone-img" />
+              </div>
+              <div class="card__content">
+                <h2>iPhone 13</h2>
+                <p class="card__sub">6.1" · A15 Bionic · Cinematic Mode</p>
+              </div>
+              <div class="card__hint">tap to see specs →</div>
+            </div>
+
+            <div class="card__back">
+              <div class="card__label">2021</div>
+              <h2>iPhone 13</h2>
+              <ul class="specs">
+                <li><span>Display</span><strong>6.1" Super Retina XDR OLED</strong></li>
+                <li><span>Chip</span><strong>Apple A15 Bionic</strong></li>
+                <li><span>Camera</span><strong>12MP Dual Wide + Ultra Wide</strong></li>
+                <li><span>Battery</span><strong>Up to 19h video</strong></li>
+                <li><span>Storage</span><strong>128 / 256 / 512GB</strong></li>
+                <li><span>Feature</span><strong>Cinematic Video Mode</strong></li>
+              </ul>
+              <div class="card__price">From <strong>$799</strong></div>
+              <button class="card__cta">Buy iPhone 13</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Images sourced from <a href="https://unsplash.com" target="_blank">Unsplash</a> &nbsp;·&nbsp; © 2026 Apple Inc. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
